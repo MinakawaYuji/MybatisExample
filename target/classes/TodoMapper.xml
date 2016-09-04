@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Speed_batch.Speed_batch.mapper.TodoMapper">
+    <select id="select" resultType="Speed_batch.Speed_batch.dto.Todo">
+        SELECT category_name , numbering , category_key , category_val FROM test.master WHERE category_name = #{category_name}
+    </select>
+</mapper>
+
+

@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: cbuser
+    password: cbpass
+    driverClassName: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:/TodoMapper.xml
